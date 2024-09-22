@@ -1,6 +1,6 @@
 <?
 $name = $_POST{'name'};
-$email = $_POST{'email'};
+$email = $_POST{'pavanjohny777@gmail.com'};
 $phone = $_POST{'phone'};
 $subject = $_POST{'subject'};
 $message = $_POST['message'];
@@ -15,7 +15,7 @@ Message: ".$message."
 
 ";
 
-mail ("name@youremail.com" , "New Message", $email_message);
+mail ("pavanjohny777@gmail.com" , "New Message", $email_message);
 header("location: ../mail-success.html");
 ?>
 
